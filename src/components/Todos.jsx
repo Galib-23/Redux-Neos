@@ -23,9 +23,9 @@ const Todos = () => {
             }
             <div>
                 {
-                    todos && todos.map(todo =>{return( <div key={todo.id}>
+                    todos && todos.map(todo => <div key={todo.id}>
                         <h4>{todo.id}{". "}{todo.title}</h4>
-                    </div>)})
+                    </div>)
                 }
             </div>
         </div>
